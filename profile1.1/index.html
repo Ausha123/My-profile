@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>profile</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <style>
+        section{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            border: 8px solid #73C57C;
+        }
+          section:nth-child(1)>div{
+              background: #73C57C;
+              width: 20%;
+              height: 800px;
+          }
+          #header{
+              position: absolute;
+              font-style: italic;
+              font-size: 30px;
+              top:270px;
+              left: 440px;
+          }
+          #header>h2{
+              position: absolute;
+              font-style: italic;
+              font-size: 30px;
+              top:70px;
+              left: 0px;
+          }
+          #header>h3{
+              position: absolute;
+              font-style: italic;
+              font-size: 30px;
+              color: #73C57C;
+              top:120px;
+              left: 0px;
+          }
+          section:nth-child(1)>div>img{
+              bottom: 250px;
+              position: absolute;
+              border: 10px solid #73C57C;
+              left: 150px;
+              width: 15%;
+          }
+          section:nth-child(1)>h1:nth-child(1){
+              position: absolute;
+              left:100px;
+          }
+          section:nth-child(1)>section>h1{
+              margin: auto;
+              position: absolute;
+              right: 50px;
+              bottom: 150px;
+          }
+          section:nth-child(1)>ul{
+              position: absolute;
+              left: 980px;
+          }
+          section:nth-child(1)>ul>li{
+              font-size: large;
+              display: inline;
+              padding: 10px;
+          }
+          section:nth-child(1)>div>ul{
+              font-size: large;
+              font-style: italic;
+              bottom: 310px;
+              position: absolute;
+              left: 400px;
+          }
+          section:nth-child(1)>div>ul>li:nth-child(3){
+              font-size: x-large;
+              color: #73C57C;
+          }
+          section:nth-child(1)>nav>ul>li{
+              display: inline;
+              padding: 10px;
+          }
+          section:nth-child(1)>nav{
+              position: absolute;
+              bottom: 3px;
+              right: 70px;
+          }
+/*==========================================page2==============================*/
+          section:nth-child(2){
+                background: white;
+          }
+          section:nth-child(2)>nav:nth-child(1)>h1{
+              position: absolute;
+              font-size: x-large;
+              left: 60px;
+              top:30px;
+          }
+          section:nth-child(2)>img{
+              width: 100%;
+              height: 100vh;
+          }
+          section:nth-child(2)>p{
+              position: absolute;
+              font-size: 25px;
+              top: 70px;
+              left:250px;
+          }
+          section:nth-child(2)>h1{
+              font-size: 25px;
+              position: absolute;
+              top:160px;
+              left:60px;
+          }
+          section:nth-child(2)>div>img{
+              position: absolute;
+              top: 200px;
+              left: 310px;
+              height: 200px;
+              width: 200px;
+              border-radius: 100%
+          }
+          section:nth-child(2)>nav>ul{
+              font-size: 20px;
+              position: absolute;
+              top: 400px;
+              left: 290px;
+          }
+          section:nth-child(2)>h2{
+              position: absolute;
+              bottom:180px;
+              left: 60px;
+          }
+          section:nth-child(2)>article>ul{
+              position: absolute;
+              bottom: 60px;
+              left: 250px;
+          }
+          section:nth-child(2)>article>ul>li{
+              color: #73C57C;
+              padding: 0px;
+          }
+        section:nth-child(2)>aside{
+            position: absolute;
+            bottom: 0;
+            right: 70px;
+        }
+        section:nth-child(2)>aside>ul>li{
+              display: inline;
+              padding: 10px;
+          }
+
+        section:nth-child(2)>article>ul:nth-child(1){
+              position: absolute;
+              bottom: 40px;
+        }
+
+        section:nth-child(2)>article>ul:nth-child(2){
+            position:absolute;
+            left: 640px;
+            bottom: 40px;
+        }
+/*==============================page3=============================================*/
+
+        section:nth-child(3)>h2{
+             position: absolute;
+             top:0px;
+             font-size: xx-large;
+             font-style: italic;
+             left:60px;
+         }
+
+        section:nth-child(3){
+            background-color: #EFF984;
+        }
+
+        section:nth-child(3)>section{
+            width: 80%;
+            height:70vh;
+            background-color: antiquewhite;
+            position: absolute;
+            margin: auto;
+            top: 3cm;
+            left: 0;
+            right: 0;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(3,1fr);
+
+        }
+        section:nth-child(3)>section>div{
+            width: 8cm;
+            height: 20px;
+            border-radius: 20px;
+            border: 1px solid black;
+            background: white;
+            margin-left: 3cm;
+            margin-top: 2cm;
+            z-index: 2;
+        }
+        section:nth-child(3)>section>div>div{
+            width: 5cm;
+            height: 20px;
+            border-radius: 20px;
+            background: #EFD02C;
+            z-index: 2;
+        }
+        section:nth-child(3)>section>h1{
+            margin-top: 1cm;
+            margin-left: 2cm;
+        }
+        section:nth-child(3)>nav>ul>li{
+            display: inline;
+            padding: 10px;
+        }
+        section:nth-child(3)>nav>ul{
+            position: absolute;
+            bottom: 3px;
+            right: 70px;
+        }
+/*=========================================page4=====================================*/
+        section:nth-child(4)>h3{
+            position: absolute;
+            top:0px;
+            font-size: xx-large;
+            font-style: italic;
+            left:60px;
+        }
+        section:nth-child(4)>img{
+            width: 100%;
+            height: 100vh;
+        }
+        section:nth-child(4)>section{
+            width: 80%;
+            height:70vh;
+            background-color: antiquewhite;
+            position: absolute;
+            margin: auto;
+            top: 3cm;
+            left: 0;
+            right: 0;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,1fr);
+
+        }
+        section:nth-child(4)>section>div{
+            width: 100px;
+            height: 100px;
+            border-radius:100%;
+            background: white;
+            z-index: 2;
+            margin-top:2cm;
+            margin-left: 2cm;
+        }
+        section:nth-child(4)>section>div>a>img{
+            z-index: 2;
+            margin-left: 0.5cm;
+            margin-top: 0.5cm;
+        }
+        section:nth-child(4)>section>h1{
+            font-size: 20px;
+            margin-left: 1.8cm;
+            margin-top:  5cm;
+        }
+/*===========================page5===================================*/
+        section:nth-child(5)>h5{
+            position: absolute;
+            top:0px;
+            font-size: xx-large;
+            font-style: italic;
+            left:60px;
+            z-index: 3;
+        }
+        /*section:nth-child(5)>img{*/
+        /*    position: absolute;*/
+        /*    width: 100%;*/
+        /*    height: 100vh;*/
+        /*}*/
+        section:nth-child(5)>section{
+            position: absolute;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,1fr);
+        }
+        section:nth-child(5)>section{
+            width: 80%;
+            height:70vh;
+            background-color: antiquewhite;
+            position: absolute;
+            margin: auto;
+            top: 3cm;
+            left: 0;
+            right: 0;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,1fr);
+
+        }
+        section:nth-child(5)>section>div{
+            width: 100px;
+            height: 100px;
+            border-radius:30%;
+            background: aquamarine;
+            z-index: 2;
+            margin-top:1.5cm;
+            margin-left: 1.5cm;
+            padding: 0cm;
+        }
+        section:nth-child(5)>section>div>img{
+            z-index: 2;
+            margin-left: 0.5cm;
+            margin-top: 0.5cm;
+        }
+        section:nth-child(5)>section>h1{
+            font-size: 20px;
+            margin-left: 1.8cm;
+            margin-top: 5cm;
+        }
+    </style>
+</head>
+<body>
+     <section>
+         <h1>My Profile</h1>
+         <ul>
+             <li>Home</li>
+             <li>About Me</li>
+             <li>Skills</li>
+             <li>Assignments</li>
+             <li>Projects</li>
+         </ul>
+         <div>
+<!--             <ul>-->
+<!--                 <li>Hello,</li>-->
+<!--                 <li>I Am Ausha Sandeepa</li>-->
+<!--                 <li>Software Engineer</li>-->
+<!--             </ul>-->
+             <img src="assets/fb.jpg">
+         </div>
+
+         <nav id="header">
+             <h1>Hello,</h1>
+             <h2>I'am Ausha Sandeepa,</h2>
+             <h3>SoftwareEngineer.</h3>
+         </nav>
+
+         <nav>
+             <ul>
+                 <li>follow me:</li>
+                 <li><a href="https://www.facebook.com/profile.php?id=100009103599792"><img src="assets/icons8_facebook_48px.png">  </a></li>
+
+
+                 <li><a href="https://www.messenger.com">
+                     <img src="assets/icons8_Facebook_Messenger_48px.png">
+                 </a></li>
+                 <li><a href="https://www.instagram.com/ausha_sandeepa/">
+                     <img src="assets/icons8_instagram_48px.png">
+                 </a></li>
+
+                 <li><a href="https://twitter.com/home"><img src="assets/icons8_twitter_squared_48px.png"></a></li>
+
+                 <li><a href="https://whatsapp.com/home"><img src="assets/icons8_whatsapp_48px.png"></a></li>
+
+             </ul>
+         </nav>
+     </section>
+
+   <section>
+            <nav>
+                <h1>About Me:</h1>
+            </nav>
+            <img src="assets/pexels-mudassir-ali-2680270.jpg">
+       <p>Hello i am Ausha Sandeepa software engineer from Galle Sri Lanka.
+           My School was Mahinda Collage Galle. I following GDSE course at IJSE .</p>
+       <h1>Personal Details:</h1>
+       <div>
+           <img src="assets/fbdog.jpg">
+       </div>
+       <nav>
+           <ul>
+               <li>Name             :      Ausha Sandeepa</li>
+               <li>Date of Birth    :      08/24/1999</li>
+               <li>Contact          :      0770097123</li>
+               <li>Email            :      aushasandeepa569@gmail.com</li>
+           </ul>
+       </nav>
+          <h2>Interested In:</h2>
+       <article>
+           <ul>
+               <li>Gaming <img src="assets/icons8_game_controller_40px.png"></li>
+               <li>Programming <img src="assets/icons8_stack_overflow_48px.png"></li>
+               <li>Listening Music<img src="assets/icons8_musical_notes_48px.png"></li>
+           </ul>
+           <ul>
+               <li>Reading<img src="assets/icons8_reading_40px.png"></li>
+               <li>Swimming<img src="assets/icons8_swimming_40px.png"></li>
+               <li>Watch Movies<img src="assets/icons8_british_movies_48px.png"></li>
+           </ul>
+       </article>
+
+       <aside>
+           <ul>
+               <li>follow me:</li>
+               <li><a href="https://www.facebook.com/profile.php?id=100009103599792"><img src="assets/icons8_facebook_48px.png">  </a></li>
+
+
+               <li><a href="https://www.messenger.com">
+                   <img src="assets/icons8_Facebook_Messenger_48px.png">
+               </a></li>
+               <li><a href="https://www.instagram.com/ausha_sandeepa/">
+                   <img src="assets/icons8_instagram_48px.png">
+               </a></li>
+
+               <li><a href="https://twitter.com/home"><img src="assets/icons8_twitter_squared_48px.png"></a></li>
+
+               <li><a href="https://whatsapp.com/home"><img src="assets/icons8_whatsapp_48px.png"></a></li>
+
+           </ul>
+       </aside>
+   </section>
+
+
+          <section>
+              <h2>Skills</h2>
+              <section></section>
+              <section>
+                  <div><div></div></div>
+                  <div><div></div></div>
+                  <div><div></div></div>
+                  <div><div></div></div>
+                  <div><div></div></div>
+                  <div><div></div></div>
+              </section>
+              <section>
+                  <h1>Java</h1>
+                  <h1>HTML</h1>
+                  <h1>MySql</h1>
+                  <h1>CSS</h1>
+                  <h1>Phython</h1>
+                  <h1>Java Script</h1>
+              </section>
+              <nav>
+                  <ul>
+                  <li>follow me:</li>
+                  <li><a href="https://www.facebook.com/profile.php?id=100009103599792"><img src="assets/icons8_facebook_48px.png">  </a></li>
+
+
+                  <li><a href="https://www.messenger.com">
+                      <img src="assets/icons8_Facebook_Messenger_48px.png">
+                  </a></li>
+                  <li><a href="https://www.instagram.com/ausha_sandeepa/">
+                      <img src="assets/icons8_instagram_48px.png">
+                  </a></li>
+
+                  <li><a href="https://twitter.com/home"><img src="assets/icons8_twitter_squared_48px.png"></a></li>
+
+                  <li><a href="https://whatsapp.com/home"><img src="assets/icons8_whatsapp_48px.png"></a></li>
+
+              </ul>
+              </nav>
+          </section>
+
+<section>
+    <h3>Assignments</h3>
+
+    <section></section>
+    <section>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/circle%26bar.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/circle%26bar.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/circle%26bar.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/circle%26bar.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/circle%26bar.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/circle%26bar.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/circle%26bar.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/circle%26bar.html"><img src="assets/icons8_audit_64px.png"></a></div>
+
+    </section>
+    <section>
+        <h1>Assignments 1</h1>
+        <h1>Assignments 2</h1>
+        <h1>Assignments 3</h1>
+        <h1>Assignments 4</h1>
+        <h1>Assignments 5</h1>
+        <h1>Assignments 6</h1>
+        <h1>Assignments 7</h1>
+        <h1>Assignments 8</h1>
+    </section>
+</section>
+
+
+<section>
+    <h5>Projects</h5>
+<!--    <img src="assets/Website-Design-Background.png">-->
+    <section></section>
+    <section>
+        <div><img src="assets/icons8_audit_64px.png"></div>
+        <div><img src="assets/icons8_audit_64px.png"></div>
+        <div><img src="assets/icons8_audit_64px.png"></div>
+        <div><img src="assets/icons8_audit_64px.png"></div>
+        <div><img src="assets/icons8_audit_64px.png"></div>
+        <div><img src="assets/icons8_audit_64px.png"></div>
+        <div><img src="assets/icons8_audit_64px.png"></div>
+        <div><img src="assets/icons8_audit_64px.png"></div>
+    </section>
+    <section>
+        <h1>Project 1</h1>
+        <h1>Project 2</h1>
+        <h1>Project 3</h1>
+        <h1>Project 4</h1>
+        <h1>Project 5</h1>
+        <h1>Project 6</h1>
+        <h1>Project 7</h1>
+        <h1>Project 8</h1>
+    </section>
+</section>
+
+
+
+
+
+
+</body>
+</html>
