@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>profile</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <style>
         section{
             width: 100%;
@@ -13,7 +14,29 @@
           section:nth-child(1)>div{
               background: #73C57C;
               width: 20%;
-              height: 770px;
+              height: 800px;
+          }
+          #header{
+              position: absolute;
+              font-style: italic;
+              font-size: 30px;
+              top:270px;
+              left: 440px;
+          }
+          #header>h2{
+              position: absolute;
+              font-style: italic;
+              font-size: 30px;
+              top:70px;
+              left: 0px;
+          }
+          #header>h3{
+              position: absolute;
+              font-style: italic;
+              font-size: 30px;
+              color: #73C57C;
+              top:120px;
+              left: 0px;
           }
           section:nth-child(1)>div>img{
               bottom: 250px;
@@ -24,14 +47,15 @@
           }
           section:nth-child(1)>h1:nth-child(1){
               position: absolute;
-              left:100px;
+              left:70px;
           }
-          section:nth-child(1)>section>h1{
-              margin: auto;
-              position: absolute;
-              right: 50px;
-              bottom: 150px;
-          }
+          /*section:nth-child(1)>h1{*/
+          /*    border: 2px solid;*/
+          /*    position: absolute;*/
+          /*    margin: auto;*/
+          /*    top: 18px;*/
+          /*    left: 10px;*/
+          /*}*/
           section:nth-child(1)>ul{
               position: absolute;
               left: 980px;
@@ -77,11 +101,12 @@
           }
           section:nth-child(2)>p{
               position: absolute;
-              font-size: large;
-              top: 70px;
+              font-size: 25px;
+              top: 50px;
               left:250px;
           }
           section:nth-child(2)>h1{
+              font-size: 25px;
               position: absolute;
               top:160px;
               left:60px;
@@ -90,12 +115,14 @@
               position: absolute;
               top: 200px;
               left: 310px;
-              width: 190px;
+              height: 200px;
+              width: 200px;
               border-radius: 100%
           }
           section:nth-child(2)>nav>ul{
+              font-size: 20px;
               position: absolute;
-              top: 390px;
+              top: 400px;
               left: 290px;
           }
           section:nth-child(2)>h2{
@@ -110,7 +137,7 @@
           }
           section:nth-child(2)>article>ul>li{
               color: #73C57C;
-              padding: 10px;
+              padding: 0px;
           }
         section:nth-child(2)>aside{
             position: absolute;
@@ -138,12 +165,20 @@
              position: absolute;
              top:0px;
              font-size: xx-large;
+             font-style: italic;
              left:60px;
          }
+
+        section:nth-child(3){
+            /*background-color: #EFF984;*/
+            background: linear-gradient(white, #80F3F3);
+        }
+
         section:nth-child(3)>section{
             width: 80%;
             height:70vh;
             background-color: antiquewhite;
+
             position: absolute;
             margin: auto;
             top: 3cm;
@@ -172,7 +207,7 @@
             z-index: 2;
         }
         section:nth-child(3)>section>h1{
-            margin-top: 1cm;
+            /*margin-top: 1cm;*/
             margin-left: 2cm;
         }
         section:nth-child(3)>nav>ul>li{
@@ -189,6 +224,7 @@
             position: absolute;
             top:0px;
             font-size: xx-large;
+            font-style: italic;
             left:60px;
         }
         section:nth-child(4)>img{
@@ -205,8 +241,8 @@
             left: 0;
             right: 0;
             display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(3,1fr);
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,1fr);
 
         }
         section:nth-child(4)>section>div{
@@ -215,24 +251,134 @@
             border-radius:100%;
             background: white;
             z-index: 2;
-            margin-top:0cm;
-            margin-left: 4cm;
+            margin-top:2cm;
+            margin-left: 2cm;
         }
-        section:nth-child(4)>section>div>img{
+        section:nth-child(4)>section>div>a>img{
             z-index: 2;
             margin-left: 0.5cm;
             margin-top: 0.5cm;
         }
         section:nth-child(4)>section>h1{
-            margin-left: 7cm;
-            margin-top: 0.5cm;
+            font-size: 20px;
+            margin-left: 1.8cm;
+            margin-top:  5cm;
         }
-/*===========================page6===================================*/
-        section:nth-child(5)>h5{
+/*===========================page5===================================*/
+        section:nth-child(5)>h1{
             position: absolute;
             top:0px;
             font-size: xx-large;
+            font-style: italic;
             left:60px;
+            z-index: 3;
+        }
+
+        section:nth-child(5) {
+            /*background: #80F3F3;*/
+            background: linear-gradient(white, #80F3F3);
+            height: 14cm;
+        }
+
+        section:nth-child(5) > aside {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        section:nth-child(5) > aside > div {
+            width: 5cm;
+            height: 4cm;
+            background: linear-gradient(white, #BF69B6);
+            margin-top: 2cm;
+            margin-left: 2cm;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        section:nth-child(5) > aside > div > div {
+            width: 5cm;
+            height: 1cm;
+            background: black;
+        }
+
+        section:nth-child(5) > aside > div > div > h1 {
+            margin-top: 1.5cm;
+            margin-left: 1.5cm;
+            color: wheat;
+            /*font-family: Dubai;*/
+            z-index: 2;
+            font-size: 1.17em;
+        }
+       /* section:nth-child(5)>section{*/
+       /*     position: absolute;*/
+       /*     display: grid;*/
+       /*     grid-template-columns: repeat(4,1fr);*/
+       /*     grid-template-rows: repeat(2,1fr);*/
+       /* }*/
+       /*section:nth-child(5)>section{*/
+       /*    width: 80%;*/
+       /*    height:70vh;*/
+       /*    border: 5px solid aquamarine;;*/
+       /*    background-color:white;*/
+       /*    position: absolute;*/
+       /*    margin: auto;*/
+       /*    top: 3cm;*/
+       /*    left: 0;*/
+       /*    right: 0;*/
+       /*    display: grid;*/
+       /*    grid-template-columns: repeat(4,1fr);*/
+       /*    grid-template-rows: repeat(2,1fr);*/
+
+       /* }*/
+       /* section:nth-child(5)>section>div{*/
+       /*     width: 9cm;*/
+       /*     height: 6cm;*/
+       /*     border: 2px solid;*/
+       /*     !*border-radius:30%;*!*/
+       /*     !*background: aquamarine;*!*/
+       /*     z-index: 2;*/
+       /*     margin-top:3.8cm;*/
+       /*     margin-left: 1.3cm;*/
+       /*     padding: 0cm;*/
+       /* }*/
+       /* section:nth-child(5)>section>div:nth-child(1)>img{*/
+       /*     height: 6cm;*/
+       /*     width: 8cm;*/
+       /*     z-index: 2;*/
+       /*     margin-left: 0.5cm;*/
+       /* }*/
+       /* section:nth-child(5)>section>div:nth-child(2)>img{*/
+       /*     height: 6cm;*/
+       /*     width: 8cm;*/
+       /*     z-index: 2;*/
+       /*     margin-left: 0.5cm;*/
+       /* }*/
+       /* section:nth-child(5)>section>div:nth-child(3)>img{*/
+       /*     height: 6cm;*/
+       /*     width: 8cm;*/
+       /*     z-index: 2;*/
+       /*     margin-left: 0.5cm;*/
+       /* }*/
+        /*section:nth-child(5)>section>h1{*/
+        /*    font-size: 20px;*/
+        /*    margin-left: 1.8cm;*/
+        /*    margin-top: 5cm;*/
+        /*}*/
+
+        section:nth-child(6) {
+            width: 100%;
+            height: 1cm;
+            background: linear-gradient(white, #EFF9B4);
+
+        }
+
+        section:nth-child(6) > p {
+            font-size: x-large;
+            text-align: center;
+            transform: translate(0%, 30%);
+            margin: 0;
+            font-size: medium;
         }
     </style>
 </head>
@@ -247,21 +393,39 @@
              <li>Projects</li>
          </ul>
          <div>
-             <ul>
-                 <li>Hello,</li>
-                 <li>I Am Ausha Sandeepa</li>
-                 <li>Software Engineer</li>
-             </ul>
-             <img src="assets/fb.jpg">
+<!--             <ul>-->
+<!--                 <li>Hello,</li>-->
+<!--                 <li>I Am Ausha Sandeepa</li>-->
+<!--                 <li>Software Engineer</li>-->
+<!--             </ul>-->
+             <img src="assets/mirror.jpg">
          </div>
+
+         <nav id="header">
+             <h1>Hello,</h1>
+             <h2>I'am Ausha Sandeepa,</h2>
+             <h3>SoftwareEngineer.</h3>
+         </nav>
+
          <nav>
              <ul>
                  <li>follow me:</li>
-                 <li><img src="assets/icons8_facebook_48px.png"></li>
-                 <li><img src="assets/icons8_Facebook_Messenger_48px.png"></li>
-                 <li><img src="assets/icons8_instagram_48px.png"></li>
-                 <li><img src="assets/icons8_twitter_squared_48px.png"></li>
-                 <li><img src="assets/icons8_whatsapp_48px.png"></li>
+                 <li><a href="https://www.facebook.com/profile.php?id=100009103599792">
+                     <img src="assets/icons8_facebook_48px.png">
+                 </a></li>
+
+
+                 <li><a href="https://www.messenger.com">
+                     <img src="assets/icons8_Facebook_Messenger_48px.png">
+                 </a></li>
+                 <li><a href="https://www.instagram.com/ausha_sandeepa/">
+                     <img src="assets/icons8_instagram_48px.png">
+                 </a></li>
+
+                 <li><a href="https://twitter.com/home"><img src="assets/icons8_twitter_squared_48px.png"></a></li>
+
+                 <li><a href="https://whatsapp.com/home"><img src="assets/icons8_whatsapp_48px.png"></a></li>
+
              </ul>
          </nav>
      </section>
@@ -302,11 +466,20 @@
        <aside>
            <ul>
                <li>follow me:</li>
-               <li><img src="assets/icons8_facebook_48px.png"></li>
-               <li><img src="assets/icons8_Facebook_Messenger_48px.png"></li>
-               <li><img src="assets/icons8_instagram_48px.png"></li>
-               <li><img src="assets/icons8_twitter_squared_48px.png"></li>
-               <li><img src="assets/icons8_whatsapp_48px.png"></li>
+               <li><a href="https://www.facebook.com/profile.php?id=100009103599792"><img src="assets/icons8_facebook_48px.png">  </a></li>
+
+
+               <li><a href="https://www.messenger.com">
+                   <img src="assets/icons8_Facebook_Messenger_48px.png">
+               </a></li>
+               <li><a href="https://www.instagram.com/ausha_sandeepa/">
+                   <img src="assets/icons8_instagram_48px.png">
+               </a></li>
+
+               <li><a href="https://twitter.com/home"><img src="assets/icons8_twitter_squared_48px.png"></a></li>
+
+               <li><a href="https://whatsapp.com/home"><img src="assets/icons8_whatsapp_48px.png"></a></li>
+
            </ul>
        </aside>
    </section>
@@ -324,38 +497,48 @@
                   <div><div></div></div>
               </section>
               <section>
-                  <h1>Java</h1>
-                  <h1>HTML</h1>
-                  <h1>MySql</h1>
-                  <h1>CSS</h1>
-                  <h1>Phython</h1>
-                  <h1>Java Script</h1>
+                  <h1>Java<img src="assets/icons8_java_48px.png"></h1>
+                  <h1>HTML<img src="assets/icons8_html_5_48px.png"></h1>
+                  <h1>MySql<img src="assets/icons8_mysql_50px.png"></h1>
+                  <h1>CSS<img src="assets/icons8_css3_48px_1.png"></h1>
+                  <h1>Python<img src="assets/icons8_python_48px.png"></h1>
+                  <h1>Java Script<img src="assets/icons8_javascript_48px.png"></h1>
               </section>
-              <nav>
-                  <ul>
-                      <li>follow me:</li>
-                      <li><img src="assets/icons8_facebook_48px.png"></li>
-                      <li><img src="assets/icons8_Facebook_Messenger_48px.png"></li>
-                      <li><img src="assets/icons8_instagram_48px.png"></li>
-                      <li><img src="assets/icons8_twitter_squared_48px.png"></li>
-                      <li><img src="assets/icons8_whatsapp_48px.png"></li>
-                  </ul>
-              </nav>
+<!--              <nav>-->
+<!--                  <ul>-->
+<!--                  <li>follow me:</li>-->
+<!--                  <li><a href="https://www.facebook.com/profile.php?id=100009103599792"><img src="assets/icons8_facebook_48px.png">  </a></li>-->
+
+
+<!--                  <li><a href="https://www.messenger.com">-->
+<!--                      <img src="assets/icons8_Facebook_Messenger_48px.png">-->
+<!--                  </a></li>-->
+<!--                  <li><a href="https://www.instagram.com/ausha_sandeepa/">-->
+<!--                      <img src="assets/icons8_instagram_48px.png">-->
+<!--                  </a></li>-->
+
+<!--                  <li><a href="https://twitter.com/home"><img src="assets/icons8_twitter_squared_48px.png"></a></li>-->
+
+<!--                  <li><a href="https://whatsapp.com/home"><img src="assets/icons8_whatsapp_48px.png"></a></li>-->
+
+<!--              </ul>-->
+<!--              </nav>-->
           </section>
 
 <section>
     <h3>Assignments</h3>
-    <img src="assets/alex-loup-nsFLt0rBQHI-unsplash.jpg">
+
     <section></section>
     <section>
-        <div><img src="assets/icons8_audit_64px.png"></div>
-        <div><img src="assets/icons8_audit_64px.png"></div>
-        <div><img src="assets/icons8_audit_64px.png"></div>
-        <div><img src="assets/icons8_audit_64px.png"></div>
-        <div><img src="assets/icons8_audit_64px.png"></div>
-        <div><img src="assets/icons8_audit_64px.png"></div>
-        <div><img src="assets/icons8_audit_64px.png"></div>
-        <div><img src="assets/icons8_audit_64px.png"></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/tree/master/01-Assets/car_animation"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/tree/master/01-Assets/imageslider"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/tree/master/01-Assets/test4"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/circle%26bar.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/test1.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/test2.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/test3.html"><img src="assets/icons8_audit_64px.png"></a></div>
+        <div><a href="https://github.com/Ausha123/Internet-technologies/blob/master/01-Assets/waterdrop.html"><img src="assets/icons8_audit_64px.png"></a></div>
+
     </section>
     <section>
         <h1>Assignments 1</h1>
@@ -370,11 +553,55 @@
 </section>
 
 
-<section>
-    <h5>Projects</h5>
-</section>
+<!--<section>-->
+<!--    <h5>Projects</h5>-->
+
+<!--    <section></section>-->
+<!--    <section>-->
+<!--        <div><img src="assets/pos.jpg"></div>-->
+<!--        <div><img src="assets/mywebsite.png"></div>-->
+<!--        <div><img src="assets/About-Web-Designing.jpg"></div>-->
+
+<!--    </section>-->
+
+<!--</section>-->
 
 
+     <section>
+
+             <h1>Projects </h1>
+
+         <aside>
+             <div>
+
+                 <div><h1>Project 1</h1></div>
+             </div>
+             <div>
+                 <div><h1>Project 2</h1></div>
+             </div>
+             <div>
+                 <div><h1>Project 3</h1></div>
+             </div>
+             <div>
+                 <div><h1>Project 4</h1></div>
+             </div>
+             <div>
+                 <div><h1>Project 5</h1></div>
+             </div>
+             <div>
+                 <div><h1>Project 6</h1></div>
+             </div>
+             <div>
+                 <div><h1>Project 7</h1></div>
+             </div>
+             <div>
+                 <div><h1>Project 8</h1></div>
+             </div>
+         </aside>
+     </section>
+     <section>
+         <p>Thank You! Mobile:+(94)770097123</p>
+     </section>
 
 
 
